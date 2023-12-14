@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 850px;
+}
+
+.todoList {
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 10px;
+    display: flex;
+
+}
+
+.todo {
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.addToDo {
+    width: 60%;
+    margin-top: 10px;
+    border: 1px solid darkgray;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.flexInLine100 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.col1 {
+    width: 5%;
+    text-align: center;
+}
+
+.col2{
+    width: 60%;
+    text-align: left;
+}
+
+.col3{
+    text-align: center;
+}
+
+.col4{
+    text-align: center;
+}
+
+.col5 {
+    text-align: right;
+}
